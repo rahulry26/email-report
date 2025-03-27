@@ -15,9 +15,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Dependencies
-        run: pip install smtplib email
-
       - name: Run Email Script
         env:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
