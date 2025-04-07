@@ -36,7 +36,7 @@ def send_email():
     msg = MIMEMultipart()
     msg["From"] = EMAIL_SENDER
     msg["To"] = EMAIL_RECEIVER
-    msg["Subject"] = "Daily Monitoring Report"
+    msg["Subject"] = "HDFC BANK"
 
     msg.attach(MIMEText(html_content, "html"))
 
