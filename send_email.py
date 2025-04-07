@@ -9,7 +9,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
 
 # Sample HTML report
-''' html_content = """
+""" html_content =
 <html>
 <head>
     <style>
@@ -27,8 +27,7 @@ EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
         <tr><td>Service Unhealthy</td><td>2</td></tr>
     </table>
 </body>
-</html>
-""" '''
+</html>"""
 Your account No. XXXXXXXX2081 has been credited with RS.220000.00 on 07-04-25
 
 # Function to send email
