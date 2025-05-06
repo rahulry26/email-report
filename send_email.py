@@ -28,7 +28,7 @@ EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER")
     </table>
 </body>
 </html>"""
-Your account No. XXXXXXXX2081 has been credited with RS.220000.00 on 07-04-25
+
 
 # Function to send email
 def send_email():
